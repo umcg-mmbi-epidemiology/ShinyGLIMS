@@ -1,0 +1,27 @@
+# R files
+.Rhistory
+.RData
+.Rproj.user
+.Rproj
+*.Rproj
+
+# renv
+renv/library/
+renv/local/
+renv/cellar/
+renv/lock/
+renv/python/
+renv/sandbox/
+renv/staging/
+
+# Posit Connect / RStudio Connect
+rsconnect/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*~
+.httr-oauth
