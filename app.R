@@ -20,8 +20,8 @@ tryCatch({
       hr(),
       p("Please ensure that:"),
       tags$ul(
-        tags$li("The mmbi.epi package is properly installed"),
-        tags$li("The package exports glims_shiny_picker() function"),
+        tags$li("The ", code("mmbi.epi"), " package is properly installed"),
+        tags$li("The package runs ", code("glims_shiny_picker()"), " without error"),
         tags$li("All dependencies are available")
       )
     )

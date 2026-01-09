@@ -1,11 +1,19 @@
 Package: ShinyGLIMS
 Title: R Shiny App for Exploring GLIMS Tables
 Version: 0.1.0
-Authors@R: 
-    person("UMCG", "MMBI Epidemiology", , "mmbi@umcg.nl", role = c("aut", "cre"))
+Authors@R: c(
+  person(given = c("Matthijs", "S."), 
+         family = "Berends",
+         role = c("aut", "cre"),
+         email = "m.s.berends@umcg.nl"),
+  person(given = c("Gerolf", "C."), 
+         family = "de Boer",
+         role = c("aut")),
+  person(given = "University Medical Center Groningen",
+         role = c("cph", "fnd")))
 Description: A Shiny application wrapper around the mmbi.epi package for exploring GLIMS tables.
     This app provides a user interface to the Shiny functionality in the mmbi.epi package.
-License: MIT
+License: GPL-2
 Depends:
     R (>= 4.0.0)
 Imports:
