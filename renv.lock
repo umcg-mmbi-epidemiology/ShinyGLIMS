@@ -2144,7 +2144,7 @@
     },
     "mmbi.epi": {
       "Package": "mmbi.epi",
-      "Version": "0.0.9",
+      "Version": "0.0.10",
       "Source": "GitHub",
       "Title": "Helper Functions for Unit Epidemiology & Data Science of UMCG MMBI Department",
       "Authors@R": "c( person(given = c(\"Matthijs\", \"S.\"),  family = \"Berends\", role = c(\"aut\", \"cre\"), email = \"m.s.berends@umcg.nl\"), person(given = c(\"Gerolf\", \"C.\"),  family = \"de Boer\", role = c(\"aut\")), person(given = \"University Medical Center Groningen\", role = c(\"cph\", \"fnd\")))",
@@ -2192,7 +2192,7 @@
       "RemoteUsername": "umcg-mmbi-epidemiology",
       "RemoteRepo": "mmbi.epi",
       "RemoteRef": "main",
-      "RemoteSha": "15efc822106ee147884b775d391551daef68778f"
+      "RemoteSha": "9d96b29f2bc0f1f30caddfe8709990c58486fade"
     },
     "odbc": {
       "Package": "odbc",
