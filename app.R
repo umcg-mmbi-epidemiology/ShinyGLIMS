@@ -1,13 +1,17 @@
-# ShinyGLIMS App
-# This is a wrapper around the mmbi.epi package Shiny functionality
-
-# Load required packages
 library(shiny)
 library(mmbi.epi)
 
-# Run the Shiny app from mmbi.epi package
+
+# 2026-01-09 MB
+# aan de praat gekregen met:
+# renv::install("umcg-mmbi-epidemiology/mmbi.epi", repos =c(Certe = "https://certe-medical-epidemiology.r-universe.dev", CRAN = "https://cran.r-project.org"))
+# renv::install(c("shiny", "DT", "dplyr", "rsconnect"))
+# renv::install("certegis", repos =c(Certe = "https://certe-medical-epidemiology.r-universe.dev", CRAN = "https://cran.r-project.org"))
+# renv::snapshot()
+# rsconnect::deployApp()
+
 tryCatch({
-  mmbi.epi::glims_shiny_picker()
+  mmbi.epi:::glims_shiny_picker()
 }, error = function(e) {
   # Provide a helpful error message in the UI
   ui <- fluidPage(
